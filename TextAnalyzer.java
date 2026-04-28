@@ -100,7 +100,10 @@ public class TextAnalyzer {
 		}
 		System.out.println();
 	}
-	
+	/**
+	 * Counts and displays the frequency of each letter found across all words.
+	 * @param map
+	 */
 	public static void countLetters(Map<String, Integer> map) {
 		Map<Character, Integer> letterMap = new HashMap<>();
 		for(Entry <String, Integer> c : map.entrySet()){
